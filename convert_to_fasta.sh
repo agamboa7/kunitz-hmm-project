@@ -7,7 +7,7 @@
 # Usage:       ./convert_to_fasta.sh input_file.csv
 # Requirements: bash, awk
 # Author:      Andrea Arriola Gamboa
-# Date:        26-05-2025
+# Date:        25-05-2025
 ###############################################################################
 
 # Check if input file is provided
