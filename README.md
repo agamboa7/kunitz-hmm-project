@@ -80,12 +80,12 @@ In the previous step, 160 sequences were processed with **CD-HIT**, resulting in
          grep -A 1 "^>$i" kunitz_sequences.fasta | tail -n 2 >> kunitz_representatives.fasta
    done
    ```
-3. **Filter Sequences by Length:** Filter out the short and long sequences from the representative FASTA file using the `countandfilter.py` script provided in the repository. This script keeps only sequences between **55 and 85 amino acids** in length.
+3. **Filter Sequences by Length:** Filter out the short and long sequences from the representative FASTA file using the `count_and_filter.py` script provided in the repository. This script keeps only sequences between **55 and 85 amino acids** in length.
 
 Run the script as follows:
 
 ```bash
-python3 countandfilter.py kunitz_representatives.fasta
+python3 count_and_filter.py kunitz_representatives.fasta
 ```
 After filtering, you should obtain a file `output_filtered.fasta` with 23 sequences that meet the length criteria.
 
