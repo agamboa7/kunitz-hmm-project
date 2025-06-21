@@ -334,7 +334,7 @@ This dual evaluation allows to compare whether using the full-sequence E-value o
 - `2` → only evaluate **best domain**
 - `0` (or omitted) → evaluate **both**
 
-## Step 14 (Optional): Visualize the results using R
+## Step 13 (Optional): Visualize the results using R
 
 To visualize how well the HMM performs at different thresholds, we can generate a plot of **MCC vs. E-value threshold** for both datasets and evaluation types (full sequence vs. best domain).
 
